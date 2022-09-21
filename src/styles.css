@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+/* FONTES */
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(/assets/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(/assests/fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: "TitilliumWeb-Regular";
+    src: url(/assests/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MODO DESKTOP */
+body {
+    font-family: "Roboto-Light", sans-serif;
+}
