@@ -25,4 +25,15 @@
 /* MODO DESKTOP */
 body {
     font-family: "Roboto-Light", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container-gid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
 }
