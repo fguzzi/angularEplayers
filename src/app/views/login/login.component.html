@@ -12,7 +12,15 @@
 
         <div class="linha btn-actions">
             <button type="submit" id="signin" class="btn btn-danger" >Sign in</button>
-            <button type="button" class="btn btn-link" (click)="receberDados()">Registre-se</button>
+            <button type="button" class="btn btn-link">Registre-se</button>
         </div>
+
+        <div class="linha">
+            {{userModel.email}} <br>
+            {{userModel.password}}
+        </div>
+
     </form>
 </div>
+
+
