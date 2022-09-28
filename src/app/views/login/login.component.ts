@@ -13,6 +13,9 @@ export class LoginComponent implements OnInit {
 
 // NOSSAS VARIÁVEIS E MÉTODOS
 
-userModel = new User()
-
+  userModel = new User
+ 
+  receberDados() {
+    console.log(this.userModel)
+  }
 }
