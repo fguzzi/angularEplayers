@@ -19,6 +19,21 @@
       "email": "aurelioguzzi@guzzi.com.br",
       "password": "$2a$10$No1twvM5iQhjfiwXeni2peSht7FfQulvvKO2TqWPbgcojGOjJpCVm",
       "id": 4
+    },
+    {
+      "email": "elaine@elaine.com",
+      "password": "$2a$10$w3uNp4eKMJ6AWt1yC.pw0.jm39heiPmVSMarp2yOPBEQ4iOoosiSm",
+      "id": 5
+    },
+    {
+      "email": "ahcguzzi@beatles.com",
+      "password": "$2a$10$SML.jxKB83Xi5wsK.wRSEummp6EOum2EI0T/zt0rfih175cRDURzC",
+      "id": 6
+    },
+    {
+      "email": "lourdesguzzi@beates.com",
+      "password": "$2a$10$f0NKZEAWLUEEgUTSNjV.heseJJ7Rdz62GKwEdc18rscAJCHUIllqa",
+      "id": 7
     }
   ]
 }
