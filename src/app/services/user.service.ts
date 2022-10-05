@@ -10,14 +10,14 @@ import { User } from '../models/user'; // IMPORT DO MODEL User
 export class UserService {
 
   constructor(    
-    // INJEÇÃO DE DEPENDÊNCIA DO MÓDULO HttpClient
+    // INJEÇÃO DE DEPENDÊNCIA DO MÓDULO HttpClient NO CONSTRUCTOR
+
     private httpClient: HttpClient
   ) { }
 
-  urlLogin = "http://localhost:3000/signin"
+  urlLogin = "http://localhost:3000/signin" // VARIÁVEL DE ROTA  
 
-  // POST DE LOGIN - ANALOGIA COM INSOMNIA
-
+  // FUNÇÃO POST DE LOGIN - ANALOGIA COM INSOMNIA
   // User CONTEM DADOS QUE VEM DO login.component
   logarUsuario(usuario: User): Observable<any> {
 

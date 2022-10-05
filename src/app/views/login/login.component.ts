@@ -10,31 +10,37 @@ import { UserService } from 'src/app/services/user.service';
 })
 export class LoginComponent implements OnInit {
 
-  constructor( private userService: UserService) { }
+  constructor( private userService: UserService) { } // CARREGAR userServer NO CONSTRUCTOR DA CLASSE
 
-  ngOnInit(): void {
-}
+  ngOnInit(): void { }
 
 // NOSSAS VARIÁVEIS E MÉTODOS
 
   userModel = new User
+  mensagem = ""
  
   receberDados() {
     console.log(this.userModel)
 
-    // DISPARANDO / SEND
-    this.userService.logarUsuario(this.userModel).subscribe({
+    // DISPARANDO A FUNÇÃO / SEND
+    this.userService.logarUsuario(this.userModel).subscribe({ //SUBSCRIBE É FUNÇÃO QUE É CHAMADA P/ RECEBER DADOS
       next: (response) => {
-        console.log("Deu certo") //SUCESSO
+
+        console.log("Solicitação OK"); //SUCESSO
+        console.log(response);
+        this.mensagem = "Logado com sucesso";
       }, 
 
       error: (err) => {
-        console.log("Deu erro") //ERRO 
-      },  
+
+        console.log("Ocorreu um erro"); //ERRO 
+        console.log(err);
+        this.mensagem = err.error;
+      },
+      })
       
-
-    })
+    }
 
   }
-  }
+  
 

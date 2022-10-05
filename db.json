@@ -1,39 +1,29 @@
 {
   "users": [
     {
-      "email": "olivier@mail.com",
-      "password": "$2a$10$iUZy4E1NfgXP86c7x4.suu/hfX0952cEU9SblXOrRmHBRDyoFrLRO",
+      "email": "fabioguzzi@music.com",
+      "password": "$2a$10$QXoitaEJPkcSekdEY0Zegu5eh8SZvcJWpkorVrOD1g58iPPUgYcmi",
       "id": 1
     },
     {
-      "email": "faguzzi@hotmail.com",
-      "password": "$2a$10$Z7MLxe7YGfqh7sbHiRTzB.XIzqYJkZ52vsOOJwIsI3RelWFHCWun2",
+      "email": "elaine@music.com",
+      "password": "$2a$10$a1E6jiXsFDNBs9YjVTA5pOckdINTQaqQV5lgzQ/p0odF4pIoPJhEm",
       "id": 2
     },
     {
-      "email": "fabio@fabio.com",
-      "password": "$2a$10$yMVZ8fITUMxtQTzyQyb5O.OinxaIddW.YdrH/fNuq3oGyxM91CFJi",
+      "email": "alex@music.com",
+      "password": "$2a$10$QsKI0UCw6KpcxZV0uvw1rOf9raP9WdgdbfIHsIF6jNVhXcLlMTmDq",
       "id": 3
     },
     {
-      "email": "aurelioguzzi@guzzi.com.br",
-      "password": "$2a$10$No1twvM5iQhjfiwXeni2peSht7FfQulvvKO2TqWPbgcojGOjJpCVm",
+      "email": "alison@music.com",
+      "password": "$2a$10$ihuy7qtlWolUwz22PZ6r5uQazjmZUOiWR4LWcM8zlPplYekVhpgPu",
       "id": 4
     },
     {
-      "email": "elaine@elaine.com",
-      "password": "$2a$10$w3uNp4eKMJ6AWt1yC.pw0.jm39heiPmVSMarp2yOPBEQ4iOoosiSm",
+      "email": "lourdes@music.com",
+      "password": "$2a$10$d5FhDsy7DdA2eG4Wi1oJ8eM0sDUgFM1NCBu.w9OSGAaBvd.C9Q1wa",
       "id": 5
-    },
-    {
-      "email": "ahcguzzi@beatles.com",
-      "password": "$2a$10$SML.jxKB83Xi5wsK.wRSEummp6EOum2EI0T/zt0rfih175cRDURzC",
-      "id": 6
-    },
-    {
-      "email": "lourdesguzzi@beates.com",
-      "password": "$2a$10$f0NKZEAWLUEEgUTSNjV.heseJJ7Rdz62GKwEdc18rscAJCHUIllqa",
-      "id": 7
     }
   ]
 }
