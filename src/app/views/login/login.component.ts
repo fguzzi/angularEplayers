@@ -22,6 +22,21 @@ export class LoginComponent implements OnInit {
   receberDados() {
     console.log(this.userModel)
 
+    const blackList = ["SELECT", "OR", ' ""="" ', "-- ", ";", "1 = 1", "1=1", "DROP", "\"\"=\"\"", "'='"]; // LISTA DE PALAVRAS CHAVE
+    let ataque = 0;
+
+
+    blackList.forEach( (palavra) => {
+        if(this.userModel.email?.toUpperCase().includes(palavra)) {  // SE FOR ENCONTRADO SQL INJECTION 
+          ataque++;
+        }
+    } );
+
+      if (this.userModel.email == "" || this.userModel.password == "" || ataque > 0) { // COM CAMPOS VAZIOS OU SOB ATAQUE
+        this.mensagem = "Preencher os campos corretamente";
+      } else {   // PODE FAZER LOGIN NORMALMENTE
+
+
     // DISPARANDO A FUNÇÃO / SEND
     this.userService.logarUsuario(this.userModel).subscribe({ //SUBSCRIBE É FUNÇÃO QUE É CHAMADA P/ RECEBER DADOS
       next: (response) => {
@@ -43,4 +58,4 @@ export class LoginComponent implements OnInit {
 
   }
   
-
+}
